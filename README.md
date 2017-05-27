@@ -1,6 +1,6 @@
 # Mr Tower 
 
-Mr Tower :tokyo_tower: is a Java game. It have been creted to be a funny, free and faster 2D game framework, supporting LWJGL - Lightweight Java Game Library and Slick2D for desktop pc. It have been created to run on windows system.
+Mr Tower :tokyo_tower: is a Java game. It have been created to be a funny, free and faster 2D game framework, supporting LWJGL - Lightweight Java Game Library and Slick2D for Desktop PC. It have been created to run on windows system.
 
 ![alt text](https://github.com/tonikolaba/MrTower/blob/master/res/menu/MrTower.gif)
 
@@ -30,7 +30,7 @@ Have Fun!
  
 ## Built With
 
-* [LJGL](https://www.lwjgl.org/) - LJGL - Lightweight Java Game Library
+* [LWJGL](https://www.lwjgl.org/) - LWJGL - Lightweight Java Game Library
 
 LWJGL is open source software and freely available at no charge. LWJGL is a Java library that enables cross-platform access to popular native APIs useful in the development of graphics (OpenGL), audio (OpenAL) and parallel computing (OpenCL) applications. This access is direct and high-performance, yet also wrapped in a type-safe and user-friendly layer, appropriate for the Java ecosystem.
 
@@ -49,4 +49,5 @@ Its basically a subset of the full Slick2D library which contains various useful
 
 * **Toni Kolaba** - *Initial work* - [tonikolaba](https://github.com/tonikolaba)
 
+![Alt text](https://github.com/tonikolaba/aos-ArtistWebpage/blob/master/img/ArtOfSoul.png?raw=true"ArtofSoul")
 
