@@ -156,5 +156,11 @@
 		</profile>
 	</profiles>
 
+	<ciManagement>
+		<system>travis-ci</system>
+		<url>https://travis-ci.org/tonikolaba/MrTower</url>
+	</ciManagement>
+
+	
 </project>
 
