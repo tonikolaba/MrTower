@@ -8,7 +8,7 @@
 	<description>
 	Mr Tower is a fun, free and fast 2D game, witch supports LWJGL - Lightweight Java Game Library &amp; Slick2D 
 	</description>
-	
+
 	<inceptionYear>2016</inceptionYear>
 	<organization>
 		<name>artofsoul</name>
@@ -26,13 +26,52 @@
 	</contributors>
 
 	<properties>
-		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
-		<timestamp>${maven.build.timestamp}</timestamp>
-		<maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<lwjgl.version>3.1.2</lwjgl.version>
 		<mainClass>al.artofsoul.main.Main</mainClass>
 	</properties>
-	
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.lwjgl</groupId>
+			<artifactId>lwjgl</artifactId>
+			<version>${lwjgl.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.lwjgl</groupId>
+			<artifactId>lwjgl</artifactId>
+			<version>${lwjgl.version}</version>
+			<classifier>${lwjgl.natives}</classifier>
+			<scope>runtime</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>lwgl</groupId>
+			<artifactId>lwgl</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/jar/lwjgl.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>lwjgl_util</groupId>
+			<artifactId>lwjgl_util</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/jar/lwjgl_util.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>slick-util</groupId>
+			<artifactId>slick-util</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/jar/slick-util.jar</systemPath>
+		</dependency>
+	</dependencies>
+
+
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<resources>
@@ -74,7 +113,7 @@
 							<goal>copy-dependencies</goal>
 						</goals>
 						<configuration>
-							<outputDirectory>${project.build.directory}/lib</outputDirectory>
+							<outputDirectory>${project.build.directory}/lib/jar</outputDirectory>
 							<overWriteReleases>false</overWriteReleases>
 							<overWriteSnapshots>false</overWriteSnapshots>
 							<overWriteIfNewer>true</overWriteIfNewer>
@@ -84,4 +123,26 @@
 			</plugin>
 		</plugins>
 	</build>
+
+
+	<profiles>
+		<!-- <profile> <id>lwjgl-natives-linux</id> <activation> <os> <family>unix</family> 
+			</os> </activation> <properties> <lwjgl.natives>natives-linux</lwjgl.natives> 
+			</properties> </profile> <profile> <id>lwjgl-natives-macos</id> <activation> 
+			<os> <family>mac</family> </os> </activation> <properties> <lwjgl.natives>natives-macos</lwjgl.natives> 
+			</properties> </profile> -->
+		<profile>
+			<id>lwjgl-natives-windows</id>
+			<activation>
+				<os>
+					<family>windows</family>
+				</os>
+			</activation>
+			<properties>
+				<lwjgl.natives>natives-windows</lwjgl.natives>
+			</properties>
+		</profile>
+	</profiles>
+
 </project>
+
