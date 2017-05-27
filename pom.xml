@@ -133,6 +133,16 @@
 				<artifactId>maven-nativedependencies-plugin</artifactId>
 				<version>${natives.version}</version>
 			</plugin>
+			<plugin>
+				<groupId>com.versioneye</groupId>
+				<artifactId>versioneye-maven-plugin</artifactId>
+				<version>3.11.4</version>
+				<configuration>
+					<propertiesPath>${basedir}/versioneye.properties</propertiesPath>
+					<organisation>artofsoul</organisation>
+					<team>Owners</team>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
