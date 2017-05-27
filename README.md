@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tonikolaba/MrTower.svg?branch=master)](https://travis-ci.org/tonikolaba/MrTower)
+
 # Mr Tower 
 
 Mr Tower :tokyo_tower: is a Java game. It have been created to be a funny, free and faster 2D game framework, supporting LWJGL - Lightweight Java Game Library and Slick2D for Desktop PC. It have been created to run on windows system.
