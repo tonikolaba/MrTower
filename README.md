@@ -1,4 +1,4 @@
-[![AppVeyor Build status](https://ci.appveyor.com/api/github/webhook?id=7hts5y5wo42nqi3n?svg=true)](https://ci.appveyor.com/project/tonikolaba/mrtower/ "AppVeyor Build status")
+[![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/bj4gqn3gp3gu45sa?svg=true)](https://ci.appveyor.com/project/tonikolaba/mrtower/ "AppVeyor Build status")
 [![Build Status](https://travis-ci.org/tonikolaba/MrTower.svg?branch=master)](https://travis-ci.org/tonikolaba/MrTower)
 
 # Mr Tower 
