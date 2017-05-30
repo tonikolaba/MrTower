@@ -1,3 +1,4 @@
+[![Dependency Status](https://www.versioneye.com/user/projects/592d2ef9a8a0560047cb155e/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/592d2ef9a8a0560047cb155e)
 [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/bj4gqn3gp3gu45sa?svg=true)](https://ci.appveyor.com/project/tonikolaba/mrtower/ "AppVeyor Build status")
 [![Build Status](https://travis-ci.org/tonikolaba/MrTower.svg?branch=master)](https://travis-ci.org/tonikolaba/MrTower)
 
