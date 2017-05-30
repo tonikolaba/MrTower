@@ -58,7 +58,7 @@
 			<version>${slick.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>java3d</groupId>
+			<groupId>javax.vecmath</groupId>
 			<artifactId>vecmath</artifactId>
 			<version>1.5.2</version>
 		</dependency>
@@ -70,14 +70,14 @@
 		</dependency>
 
 
-	<!-- <dependency> <groupId>lwgl</groupId> <artifactId>lwgl</artifactId> 
-		<version>1.0-SNAPSHOT</version> <scope>system</scope> <systemPath>${basedir}/lib/jar/lwjgl.jar</systemPath> 
-		</dependency> <dependency> <groupId>lwjgl_util</groupId> <artifactId>lwjgl_util</artifactId> 
-		<version>1.0-SNAPSHOT</version> <scope>system</scope> <systemPath>${basedir}/lib/jar/lwjgl_util.jar</systemPath> 
-		</dependency> <dependency> <groupId>slick-util</groupId> <artifactId>slick-util</artifactId> 
-		<version>1.0-SNAPSHOT</version> <scope>system</scope> <systemPath>${basedir}/lib/jar/slick-util.jar</systemPath> 
-		</dependency> -->
-</dependencies>
+		<!-- <dependency> <groupId>lwgl</groupId> <artifactId>lwgl</artifactId> 
+			<version>1.0-SNAPSHOT</version> <scope>system</scope> <systemPath>${basedir}/lib/jar/lwjgl.jar</systemPath> 
+			</dependency> <dependency> <groupId>lwjgl_util</groupId> <artifactId>lwjgl_util</artifactId> 
+			<version>1.0-SNAPSHOT</version> <scope>system</scope> <systemPath>${basedir}/lib/jar/lwjgl_util.jar</systemPath> 
+			</dependency> <dependency> <groupId>slick-util</groupId> <artifactId>slick-util</artifactId> 
+			<version>1.0-SNAPSHOT</version> <scope>system</scope> <systemPath>${basedir}/lib/jar/slick-util.jar</systemPath> 
+			</dependency> -->
+	</dependencies>
 
 	<build>
 		<sourceDirectory>src</sourceDirectory>
@@ -171,6 +171,6 @@
 		<url>https://travis-ci.org/tonikolaba/MrTower</url>
 	</ciManagement>
 
-	
+
 </project>
 
