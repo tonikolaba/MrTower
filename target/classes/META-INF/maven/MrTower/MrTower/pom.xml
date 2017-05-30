@@ -27,12 +27,12 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<natives.version>0.0.6</natives.version>
+		<natives.version>0.0.7</natives.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<lwjgl.version>3.1.2</lwjgl.version>
 		<slick.version>1.0.2</slick.version>
-		<junit.version>4.10</junit.version>
+		<junit.version>4.12</junit.version>
 		<mainClass>al.artofsoul.main.Main</mainClass>
 	</properties>
 
@@ -58,9 +58,9 @@
 			<version>${slick.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>java3d</groupId>
+			<groupId>javax.vecmath</groupId>
 			<artifactId>vecmath</artifactId>
-			<version>1.3.1</version>
+			<version>1.5.2</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
@@ -70,14 +70,14 @@
 		</dependency>
 
 
-	<!-- <dependency> <groupId>lwgl</groupId> <artifactId>lwgl</artifactId> 
-		<version>1.0-SNAPSHOT</version> <scope>system</scope> <systemPath>${basedir}/lib/jar/lwjgl.jar</systemPath> 
-		</dependency> <dependency> <groupId>lwjgl_util</groupId> <artifactId>lwjgl_util</artifactId> 
-		<version>1.0-SNAPSHOT</version> <scope>system</scope> <systemPath>${basedir}/lib/jar/lwjgl_util.jar</systemPath> 
-		</dependency> <dependency> <groupId>slick-util</groupId> <artifactId>slick-util</artifactId> 
-		<version>1.0-SNAPSHOT</version> <scope>system</scope> <systemPath>${basedir}/lib/jar/slick-util.jar</systemPath> 
-		</dependency> -->
-</dependencies>
+		<!-- <dependency> <groupId>lwgl</groupId> <artifactId>lwgl</artifactId> 
+			<version>1.0-SNAPSHOT</version> <scope>system</scope> <systemPath>${basedir}/lib/jar/lwjgl.jar</systemPath> 
+			</dependency> <dependency> <groupId>lwjgl_util</groupId> <artifactId>lwjgl_util</artifactId> 
+			<version>1.0-SNAPSHOT</version> <scope>system</scope> <systemPath>${basedir}/lib/jar/lwjgl_util.jar</systemPath> 
+			</dependency> <dependency> <groupId>slick-util</groupId> <artifactId>slick-util</artifactId> 
+			<version>1.0-SNAPSHOT</version> <scope>system</scope> <systemPath>${basedir}/lib/jar/slick-util.jar</systemPath> 
+			</dependency> -->
+	</dependencies>
 
 	<build>
 		<sourceDirectory>src</sourceDirectory>
@@ -133,6 +133,16 @@
 				<artifactId>maven-nativedependencies-plugin</artifactId>
 				<version>${natives.version}</version>
 			</plugin>
+			<plugin>
+				<groupId>com.versioneye</groupId>
+				<artifactId>versioneye-maven-plugin</artifactId>
+				<version>3.11.4</version>
+				<configuration>
+					<propertiesPath>${basedir}/versioneye.properties</propertiesPath>
+					<organisation>artofsoul</organisation>
+					<team>Owners</team>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
@@ -156,5 +166,10 @@
 		</profile>
 	</profiles>
 
-</project>
+	<ciManagement>
+		<system>travis-ci</system>
+		<url>https://travis-ci.org/tonikolaba/MrTower</url>
+	</ciManagement>
 
+
+</project>
