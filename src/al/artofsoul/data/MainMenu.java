@@ -29,7 +29,7 @@ public class MainMenu {
 			if (menuUI.isButtonClicked("Editor"))
 				StateManger.setState(GameState.EDITOR);
 			if (menuUI.isButtonClicked("Quit"))
-				System.exit(0);
+				Runtime.getRuntime().exit(0);
 		}
 	}
 	
