@@ -7,7 +7,9 @@
 
 Mr Tower :tokyo_tower: is a Java game. It have been created to be a funny, free and faster 2D game framework, supporting LWJGL - Lightweight Java Game Library and Slick2D for Desktop PC. It have been created to run on windows system.
 
-![alt text](https://github.com/tonikolaba/MrTower/blob/master/res/menu/MrTower.gif)
+![alt text](https://github.com/tonikolaba/MrTower/blob/master/res/menu/MrTower.gif) | ![alt text](https://github.com/tonikolaba/MrTower/blob/master/res/menu/MrTower1.gif)
+------------ | -------------
+
 
 ## Getting Started
 
