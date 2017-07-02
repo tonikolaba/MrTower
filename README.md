@@ -40,22 +40,8 @@ Have Fun!
 ## Built With
 
 * [Maven](https://maven.apache.org/) - Apache Maven
-
-Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information. 
-
 * [LWJGL](https://www.lwjgl.org/) - Lightweight Java Game Library
-
-LWJGL is open source software and freely available at no charge. LWJGL is a Java library that enables cross-platform access to popular native APIs useful in the development of graphics (OpenGL), audio (OpenAL) and parallel computing (OpenCL) applications. This access is direct and high-performance, yet also wrapped in a type-safe and user-friendly layer, appropriate for the Java ecosystem.
-
-LWJGL is an enabling technology and provides low-level access. It is not a framework and does not provide higher-level utilities than what the native libraries expose. As such, novice programmers are encouraged to try one of the frameworks or game engines that make use of LWJGL, before working directly with the library.
-
-
 * [Slick-Util](http://slick.ninjacave.com/slick-util/) - Slick-Util 
-
-Slick-Util is a small library to enable you to load various image, sound and font formats for use with LWJGL.
-
-Its basically a subset of the full Slick2D library which contains various useful classes that can be used by users working with LWJGL code directly.
-
 
 ## Authors
 
