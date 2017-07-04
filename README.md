@@ -2,6 +2,8 @@
 [![Dependency Status](https://www.versioneye.com/user/projects/592d2ef9a8a0560047cb155e/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/592d2ef9a8a0560047cb155e)
 [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/bj4gqn3gp3gu45sa?svg=true)](https://ci.appveyor.com/project/tonikolaba/mrtower/ "AppVeyor Build status")
 [![Build Status](https://travis-ci.org/tonikolaba/MrTower.svg?branch=master)](https://travis-ci.org/tonikolaba/MrTower)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/tonikolaba/MrTower/master/License.md)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/tonikolaba/MrTower.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
 
 # Mr Tower 
 
