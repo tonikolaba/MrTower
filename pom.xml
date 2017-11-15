@@ -30,7 +30,7 @@
 		<natives.version>0.0.7</natives.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-		<lwjgl.version>3.1.2</lwjgl.version>
+		<lwjgl.version>3.1.3</lwjgl.version>
 		<slick.version>1.0.2</slick.version>
 		<junit.version>4.12</junit.version>
 		<mainClass>al.artofsoul.main.Main</mainClass>
