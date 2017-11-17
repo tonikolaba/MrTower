@@ -144,7 +144,7 @@
 					<name>MrTower</name>
 					<visibility>TrueOrFalse</visibility>-->
           				<transitiveDependencies>true</transitiveDependencies>
-					<team>Owners</team>
+					<team>artofsoul</team>
 				</configuration>
 			</plugin>
 		</plugins>
