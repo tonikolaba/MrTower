@@ -6,7 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>MrTower</name>
 	<description>
-	Mr Tower is a fun, free and fast 2D game, witch supports LWJGL - Lightweight Java Game Library &amp; Slick2D 
+	Mr Tower is a fun, free and fast 2D game, witch supports LWJGL - Lightweight Java Game Library & Slick2D 
 	</description>
 
 	<inceptionYear>2016</inceptionYear>
@@ -139,7 +139,11 @@
 				<version>3.11.4</version>
 				<configuration>
 					<propertiesPath>${basedir}/versioneye.properties</propertiesPath>
+					<apiKey>2cb0e33d5f775d2b8e78</apiKey>
 					<organisation>artofsoul</organisation>
+					<name>MrTower</name>
+					<visibility>TrueOrFalse</visibility>-->
+          				<transitiveDependencies>true</transitiveDependencies>
 					<team>Owners</team>
 				</configuration>
 			</plugin>
