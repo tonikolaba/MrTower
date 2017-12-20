@@ -5,9 +5,7 @@
 	<artifactId>MrTower</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>MrTower</name>
-	<description>
-	Mr Tower is a fun, free and fast 2D game, witch supports LWJGL - Lightweight Java Game Library & Slick2D 
-	</description>
+
 
 	<inceptionYear>2016</inceptionYear>
 	<organization>
