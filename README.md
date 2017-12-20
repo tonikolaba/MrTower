@@ -1,5 +1,5 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/11b722ea472f4136aae08d9c1a020214)](https://www.codacy.com/app/tonikolaba/MrTower?utm_source=github.com&utm_medium=referral&utm_content=tonikolaba/MrTower&utm_campaign=badger)
-[![Dependency Status](https://www.versioneye.com/user/projects/592d2ef9a8a0560047cb155e/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/592d2ef9a8a0560047cb155e)
+[![Dependency Status](https://www.versioneye.com/user/projects/5a0ef5e80fb24f2a31716fc3/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5a0ef5e80fb24f2a31716fc3)
 [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/bj4gqn3gp3gu45sa?svg=true)](https://ci.appveyor.com/project/tonikolaba/mrtower/ "AppVeyor Build status")
 [![Build Status](https://travis-ci.org/tonikolaba/MrTower.svg?branch=master)](https://travis-ci.org/tonikolaba/MrTower)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/tonikolaba/MrTower/master/License.md)
@@ -30,7 +30,7 @@ Mr Tower game supports LWJGL - Lightweight Java Game Library and Slick2D.
 
 Native folder tell IDE what kind of operation system it will run.
 
-4 - Run Game as Java Application (al.artofsoul.main/Boot is the main method).
+4 - Run Game as Java Application (al.artofsoul.main/MrTower is the main method).
 
 ```
 ![Alt text](https://github.com/tonikolaba/MrTower/blob/master/res/menu/native-explain.gif)

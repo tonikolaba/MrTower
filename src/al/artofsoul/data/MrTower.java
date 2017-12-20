@@ -7,9 +7,9 @@ import org.lwjgl.opengl.Display;
 import al.artofsoul.ndihma.Ora;
 import al.artofsoul.ndihma.StateManger;
 
-public class Boot {
+public class MrTower {
 	
-	public Boot(){
+	public MrTower(){
 		//Call static method in Artist class to initialize OpenGL calls
 		BeginSession();
 		// main game loop
@@ -23,6 +23,6 @@ public class Boot {
 	}
 	
 	public static void main(String[] args){
-		new Boot ();
+		new MrTower ();
 	}
 }
